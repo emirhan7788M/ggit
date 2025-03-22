@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.header-video {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.header__ul {
+    display: flex;
+    gap: 27px;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.kligram {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 110vh;
+
+}
+.kligram2{
+    padding-bottom: 70px;
+}
+
+.kligram a {
+    border: 1px solid white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.kligram h3 {
+    font-size: 46.59px;
+}
+
+.kligram h1 {
+    font-size: 69.06px;
+}
+
+.main {
+    background-image: url('./Img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: end;
+    padding: 80px;
+    color: white;
+}
+
+.main__info h2{
+    font-size: 69px;
+    color: white;
+
+}
+.main__info h3{
+    font-size: 46px;
+    color: white;
+}
+.main__info-link{
+    border: 1px solid white;
+    width: 150px;       
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.main__info{
+    color: white;
+    padding: 10px;
+}
+
+
+.cosmonaft{
+    background-image: url('./cosmonaft.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: end;
+    padding: 80px;
+    color: white;
+}
+.navbar{
+    padding-bottom: 20px;
+}
+
+.main__info h2{
+    font-size: 69px;
+    color: white;
+
+}
+.main__info h3{
+    font-size: 46px;
+    color: white;
+}
+.maun button{
+    font-size: 5px;
+}
+.maun h2{
+    font-size: 69px;
+    color: white;
+}
+.maun h3{
+    font-size: 46px;
+    color: white;
+}
+.tavbar{
+    padding-bottom: 20px;
+}
+.tavbar {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 110vh;
+    margin-top: 30px;
+}
+.tavbar h2{
+
+}
+
+.tavbar a {
+    border: 1px solid white;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.tavbar h3 {
+    font-size: 46.59px;
+}
+
+.tavbar h1 {
+    font-size: 69.06px;
+}
+.fig{
+   text-align: center;
+   justify-content: center;
+   display: flex;
+   gap: 60px;
+   background-color: black;
+   color: aliceblue;
+}
